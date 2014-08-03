@@ -19,9 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    civ=[[PLLCircleImageView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
+    civ=[[PLLCircleImageView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
     [civ setShowImage:[UIImage imageNamed:@"poolo.png"]];
     [self.view addSubview:civ];
+    civ.center=self.view.center;
 }
 
 - (void)didReceiveMemoryWarning

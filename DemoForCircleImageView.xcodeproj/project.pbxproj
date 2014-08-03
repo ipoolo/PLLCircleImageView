@@ -22,7 +22,7 @@
 		931EAD73198EAF3000E03BC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931EAD71198EAF3000E03BC8 /* InfoPlist.strings */; };
 		931EAD75198EAF3000E03BC8 /* DemoForCircleImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931EAD74198EAF3000E03BC8 /* DemoForCircleImageViewTests.m */; };
 		931EAD81198EAFA900E03BC8 /* PLLCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 931EAD80198EAFA900E03BC8 /* PLLCircleImageView.m */; };
-		931EAD84198EB0B500E03BC8 /* poolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 931EAD83198EB0B500E03BC8 /* poolo.png */; };
+		931EAD86198EB25F00E03BC8 /* poolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 931EAD85198EB25F00E03BC8 /* poolo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		931EAD74198EAF3000E03BC8 /* DemoForCircleImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForCircleImageViewTests.m; sourceTree = "<group>"; };
 		931EAD7F198EAFA900E03BC8 /* PLLCircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLLCircleImageView.h; path = PLLCircelImageView/PLLCircleImageView.h; sourceTree = "<group>"; };
 		931EAD80198EAFA900E03BC8 /* PLLCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLLCircleImageView.m; path = PLLCircelImageView/PLLCircleImageView.m; sourceTree = "<group>"; };
-		931EAD83198EB0B500E03BC8 /* poolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poolo.png; sourceTree = "<group>"; };
+		931EAD85198EB25F00E03BC8 /* poolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poolo.png; path = ../poolo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		931EAD4F198EAF3000E03BC8 /* DemoForCircleImageView */ = {
 			isa = PBXGroup;
 			children = (
-				931EAD83198EB0B500E03BC8 /* poolo.png */,
+				931EAD85198EB25F00E03BC8 /* poolo.png */,
 				931EAD7E198EAF6600E03BC8 /* PLLCircleImageView */,
 				931EAD58198EAF3000E03BC8 /* PLLAppDelegate.h */,
 				931EAD59198EAF3000E03BC8 /* PLLAppDelegate.m */,
@@ -246,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931EAD62198EAF3000E03BC8 /* Images.xcassets in Resources */,
-				931EAD84198EB0B500E03BC8 /* poolo.png in Resources */,
+				931EAD86198EB25F00E03BC8 /* poolo.png in Resources */,
 				931EAD54198EAF3000E03BC8 /* InfoPlist.strings in Resources */,
 				931EAD5D198EAF3000E03BC8 /* Main.storyboard in Resources */,
 			);
